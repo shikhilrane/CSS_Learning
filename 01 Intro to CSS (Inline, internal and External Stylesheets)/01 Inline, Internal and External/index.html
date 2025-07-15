@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* this is internal css, here inline css has more priority over internal css that is why blueviolet is applied to h1 */
+        h1{
+            color: red;
+        }
+        /* as we have applied !important with p in internal css it will priorites this property and will aplly green */
+        p{
+            color: green !important; 
+        }
+        aside{
+            color:aqua;
+        }
+        article{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- applied css, here and in style tag in head tag -->
+    <h1 style="color: blueviolet;"> Welcome to CSS</h1>
+
+    <!-- applied css, here and in style tag with !important in head tag -->
+    <p style="color: aqua;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus culpa quisquam porro optio explicabo nisi suscipit officiis tenetur tempora necessitatibus enim blanditiis vero laborum ipsam accusantium delectus repudiandae, magnam quis ipsa! Maiores veniam quae nostrum amet ducimus minus praesentium pariatur, aspernatur asperiores quibusdam magni eligendi ad eum enim a?</p>
+    <!-- applied css, here and in style sheet -->
+    <div style="background-color: gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ea magnam nam beatae quia aperiam? Aliquid, provident vero inventore, nam delectus dignissimos voluptatibus rerum eveniet veritatis fuga quae doloribus porro. Nostrum amet sunt consectetur, quas sapiente, obcaecati, architecto cupiditate dicta nobis eveniet dolorem sint doloribus quae molestias et! Corrupti, rem!</div>
+
+    <!-- applied css, here and in style sheet -->
+    <section style="background-color: brown;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolorem recusandae autem, sunt eligendi, cupiditate blanditiis ut et exercitationem ea nisi? Assumenda expedita, cum ut, nihil, consectetur temporibus doloremque ab quidem dolorem iure deserunt possimus? Suscipit, corrupti animi. Commodi neque odit vitae totam veritatis nesciunt maiores soluta minima, ullam at.</section>
+
+    <!-- applied css, internal and in style sheet -->
+    <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quia, voluptates quae facilis illum molestiae aliquam quam perspiciatis magnam laboriosam nihil quidem accusamus ipsa fugiat tempora ducimus. Reprehenderit, fuga culpa?</aside>
+
+    <!-- applied css, here and in style tag in head tag and in style sheet -->
+    <article style="color:chocolate;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta exercitationem consectetur officiis repudiandae saepe sit! Facere error vitae ducimus officia? Dicta sint sit eligendi provident beatae expedita quo cupiditate!</article>
+</body>
+</html>

@@ -1,0 +1,26 @@
+1. font-style -> gives style to text
+2. font-size -> give size to font
+3. px -> it is a unit size
+         1 physical pix = 1/96 inch or 0.26 mm
+4. font-family -> it defines look of text. we can even use google fonts.
+5. font-weight -> Use to define weight of weight (thickness of text)
+6. line-height -> it is use to define gap between text lines
+
+colors- (name, rgb, rgba, hex, hsl)
+1. name - 
+    we can directly give colors by name
+2. rgb - 
+    r = red, g = green, b = blue
+    rgb(0,0,0) to rgb(255,255,255)
+3. rgba - 
+    r = red, g = green, b = blue, a = alpha
+    a = 0 to 1 (it defines transperancy of rgb color)
+4. hex - 
+    hexadeimal - #ffffff
+    in which first two f shows red component, second two f shows green component, third two ff shows blue component (0 to 9 and a to f)
+5. hsl - 
+    hue, saturation, lightness
+    it shows values in %age
+    hue - degree of color wheel from 0 to 360 (120 is green, 240 is blue, 360 is red)
+    saturation - intensity of color (0 is no visibility of color, 50% is 50% gray, 100% is full color)
+    lightness - opacity from 0 to 100%

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            height: 1500px;
+            display: flex;
+            /* flex-direction: row;
+            flex-wrap: wrap-reverse; 
+            /* flex flow is shorthand property for flex-direction and flex-wrap*/
+            flex-flow: row wrap;
+            justify-content:start;
+            align-items: center;
+            align-content:center;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid brown;
+            margin: 2px;
+            padding: 2px;
+        }
+        #one{
+            background-color: aqua;
+            order: 5;
+            flex-shrink: 5;
+            flex-grow: 0;
+            flex-basis: 400px;
+            align-self: center;
+        }
+        #two{
+            background-color: blue;
+        }
+        #three{
+            background-color: orange;
+        } 
+        #four{
+            background-color: brown;
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="one">box1</div>
+        <div class="box" id="two">box2</div>
+        <div class="box" id="three">box3</div>
+        <div class="box" id="four">box4</div>
+    </div>
+</body>
+</html>

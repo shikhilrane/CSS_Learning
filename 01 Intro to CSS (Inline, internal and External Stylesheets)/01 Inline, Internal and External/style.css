@@ -1,0 +1,15 @@
+div{
+    background-color: royalblue;
+}
+
+section{
+    background-color: lime !important;
+}
+
+aside{
+    color:rgb(194, 15, 194);
+}
+
+article{
+    color: yellow;
+}

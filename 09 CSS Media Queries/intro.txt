@@ -1,0 +1,2 @@
+Media Queries - 
+    1. It is used to show content of the web page according to dimension of display size

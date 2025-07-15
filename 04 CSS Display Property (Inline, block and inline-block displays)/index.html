@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* div{
+            border: 2px solid red;
+            width: 300px;
+            height: 300px;
+            margin: 25px;
+            padding: 50px;
+        } */
+        .box{
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            padding: 40px;
+            margin: 40px;
+            box-sizing:border-box;
+
+            /* display: inline; */
+        }
+        span{
+            border: 2px solid red;
+            height: 100px;
+            width: 100px;
+            padding: 10px;
+            margin: 30px;
+            /* it will convt inline to block
+            display: block; */
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div>welcome 1</div>
+    <div>welcome 2</div> -->
+    <div class="box">Lorem ipsum dolor sit amet.</div>
+    <span>hello</span>
+    <span>world</span>
+</body>
+</html>

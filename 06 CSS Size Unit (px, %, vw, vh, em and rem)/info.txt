@@ -1,0 +1,24 @@
+Unit -
+absolute unit - it is unit where size is fixed everywhere e.g. inch, cm, mm, px
+relative unit - it is unit where size is dependent on its parent size e.g. %, vh, vw
+    1. px - its a absolute unit
+    2. % - it assign size according to its parent's size
+    3. vw - it set width according to width of window
+    4. vh - it set height according to height of window
+    5. em - it is dependent on parent.
+            it multiply the em value with its parents px or em or any other value. 
+            i.e. if parent has 10px size and if we apply 10em to child element then size of child will become,
+            child size with em = 10(parent size in pixel) * value provided with em = __px
+            e.g. 10px * 10em = 100px
+                where, 10px is size of parent
+                       10em is, size given to child
+                       100px is, size of child in px
+    6. rem - as em deal with parent element rem deals with root element i.e. html element 
+             By default root has 16px size
+             size with rem = 16 (default root has 16px size) * value provided with rem = __px
+             e.g. 16px * 5rem = 80pc
+                where, 16px is size of root element
+                       5rem is, size given to element
+                       80px is, size of element in px
+
+we should not use absolute unit for responsive website

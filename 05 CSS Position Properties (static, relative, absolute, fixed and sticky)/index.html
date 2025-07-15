@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 1px solid black;  
+            background-color: beige; 
+            position: relative; 
+            top: 100px;
+            height: 8000px;
+        }
+        img{
+            margin: 10px;
+        }
+        .two{
+            position: absolute;
+            top: 300px;
+        }
+
+        .four{
+            position: fixed;
+            top: 250px
+        }
+
+        .three{
+            position: sticky;
+            top: 10px;
+        }
+
+        .box{
+            height: 5000px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="one" src="./media/googleOne.png" alt="googleOne" width="300px">
+
+        <img class="two" src="./media/Google-Photos-logo.png" alt="gPhotos" width="300px">
+
+        <img class="three" src="./media/googleDrive.png" width="300px">
+
+        <img class="four" src="./media/gmail.jpg" width="300px">
+    </div>
+
+    <div class="box">
+
+    </div>
+</body>
+</html>

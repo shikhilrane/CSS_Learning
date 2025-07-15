@@ -1,0 +1,14 @@
+Display -   
+    The way in which elements behave
+    three types of Display -
+        1. inline - elements who only take that much width required to them. It doesn't respct height and width. Custom margin padding not allowed.
+        we can convt inline to block
+        2. block - these element always take full width of the screens so next element renders on next line. It also respect custom margin and padding.
+        we can convt block to inline
+        3. none
+        4. inline-block - inline element will allow to use height width magin padding. It will still take only space that much is required
+
+box-sizing 
+    when we keep box-sizing : border-box;
+        it doesn't change size of box (i.e. element)
+        if we gave height 300px and width 300px and applied border of 1 px to it then it will become 301X301 i.e. it will resize our element so to keep height and width same with border and margin and padding we should use border-box as box-sizing

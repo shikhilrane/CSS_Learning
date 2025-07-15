@@ -1,0 +1,17 @@
+Selectors : 
+    1 Element Selectors - when we directly target html tag in css file to apply css is called as Element selectors. If we 
+                          directly target <p></p> to apply css then it will apply those particular properties to all <p></p> tags in html document
+                          e.g. p{}
+    2 Id Selectors - every element has unique Id. We have to use # to target ID. There can't be same of ID of multiple elements
+                     e.g #p{}
+    3 Class Selectors - There can be same Class of multiple. elements We have to use . to target ID
+                        e.g. .p{}
+    4 Group Selectors - when we have to apply same properties to multiple elements. 
+                        e.g. p,article,section,div{}
+
+Note : 
+    ID vs Class : 
+        1. ID - every element has unique Id. same ID can't be applied to two or more elements. There can't be same of ID of     
+                multiple elements
+        2. Class - we can apply same class to multiple elements. By using this we can target multiple elements with same class.
+                   There can be same Class of multiple elements

@@ -1,0 +1,25 @@
+Position Properties - Use to position elements properly on webpage
+    there are 5 types of Position Properties
+    1 static - By default position is static
+    2 relative - 
+        element can be position wrt to window using top, left, right and bottom. 
+        i.e. we are positioning element according to current window
+        the previous gap is still maintained
+        e.g. position: relative; 
+             top: 100px;
+
+    3 absolute - 
+        it is use to overlap elements
+        element can be position wrt to closest ancestor element using top, left, right and bottom. 
+        i.e. we are positioning element according to closest ancestor element.
+        it doesn't maintain gap
+    e.g. position: absolute;
+         top: 300px
+
+    4 fixed - it will fix at it position whenever we even scroll the web page
+    e.g. position: fixed;
+         top: 250px
+         
+    5 sticky - It only shows sticky behaviour inside its parent container 
+    e.g. position: sticky;
+         top: 10px;

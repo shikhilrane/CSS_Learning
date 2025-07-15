@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .first{
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .parent{
+            border: 2px solid black;
+            background-color: beige;
+            width: 50%;
+        }
+
+        .child{
+            border: 2px solid green;
+            background-color: aqua;
+            width: 20%;
+        }
+
+        .two{
+            border: 2px solid blue;
+            background-color: beige;
+            width: 50vw;
+            height: 50vh;
+        }
+
+        .three{
+            border: 1px solid black;
+            font-size: 100px;
+        }
+
+        .four{
+            font-size: 5px;
+        }
+        .innerFour{
+            font-size: 10em;
+        }
+
+        .five{
+            border: 1px solid black;
+            font-size: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">welcome to my website</div>
+
+    <div class="parent">
+        <div class="child">Child</div>
+    </div>
+
+    <div class="two">Hello</div>
+
+    <div class="three">world</div>
+
+    <div class="four">pxpxpxpxpxpx
+        <div class="innerFour">emememememem</div>
+    </div>
+
+    <p class="five">hello ji</p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        :root{
+            --custom-width: 330px;
+            --custom-color: brown;
+        }
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: aqua;
+            /* --custom-width: 330px; */
+            width: var(--custom-width);
+            height: 330px;
+            /* --custom-color: brown; */
+            border: 1px solid var(--custom-color);
+            margin: 5px;
+            padding: 5px;
+            /* Box Shadow*/
+            /* box-shadow: 10px 15px brown; */
+            /* box-shadow: 10px 15px 5px brown; */
+            /* box-shadow: 10px 15px 5px 80px brown; */
+            /* box-shadow: inset 10px 15px 5px brown; */
+            /* box-shadow: 10px 15px brown , 15px 8px green; */
+        }
+
+        #head{
+            /* text-shadow: 2px 3px 2px red; */
+            text-shadow: 2px 3px 2px red, 5px 6px 2px yellow, 8px 9px 2px blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="./media/Google.svg.webp" width="150px" alt="">
+            <h2 id="head">This is google</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea quaerat eum commodi reprehenderit numquam, voluptatibus nam eos, ipsam nulla pariatur delectus accusamus repellat molestiae!</p>
+        </div>
+    </div>
+</body>
+</html>

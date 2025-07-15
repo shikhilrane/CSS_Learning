@@ -1,0 +1,36 @@
+1 Border - 
+    border-style = solid, dotted, dashed
+    border-color = it define color of the border
+    border-width = it defines width of the border
+    short hand property to apply border = 
+        border: border-style border-color border-width 
+
+2 Width - 
+    width is use to define width od the element
+
+3 Height - 
+    height is use to define height od the element
+
+4 Box model -
+    Any content render within rectangular Box
+    there are 4 parts of box model
+    1 content - our contet
+    2 padding -
+        space between content and border
+        1. padding: 90px (applied all sides equal size)
+        2. padding-left : 30px (applied to left)
+        3. padding: 20px 40px (applied to top side)
+        4. padding: 15px 25px 35px 45px; (top right bottom left)
+    3 border - we saw
+    4 margin - 
+        space between border and screen edge
+        1. margin: 90px (applied all sides equal size)
+        2. margin-left : 30px (applied to left)
+        3. margin: 20px 40px (applied to top side)
+        4. margin: 10px 20px 30px 40px; (top right bottom left)
+
+5 Universal selector
+    properties will be applied to all elements
+    *{
+        
+    }

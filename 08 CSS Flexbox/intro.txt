@@ -1,0 +1,15 @@
+Flexbox - It is use to create layout of website properly
+    container properties :-
+        1. display: flex (it will make element a flexbox)
+        2. flex-direction: row, coloumn, row-reverse, coloumn-reverse (it defines direction of flex)
+        3. flex-wrap: wrap, wrap-reverse, nowrap
+        4. justify-content: start,center,end, space-evenly, space-between, space-around;
+        5. align-items: start,center,end, space-evenly, space-between, space-around;
+        6. align-content: start,center,end, space-evenly, space-between, space-around;
+
+    flex-item properties :-
+        1. order: use to set order or paricular flex-item;
+        2. flex-shrink: it will shrink flex-item more than its colleague flex-item when wrap;
+        3. flex-grow: it will grow flex-item more than its colleague flex-item;
+        4. flex-basis: it will give specified size to flex-item e.g. 400px;
+        5. align-self: start,center,end, space-evenly, space-between, space-around; (it will give style while wrapping)
